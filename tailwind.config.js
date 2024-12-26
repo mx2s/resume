@@ -152,6 +152,12 @@ module.exports = {
         ".hyphens-manual": {
           "hyphens": "manual",
         },
+        ".whitespace-nowrap": {
+          "white-space": "nowrap",
+        },
+        ".grid-columns": {
+          "grid-template-columns": "58% 42%",
+        }
       }
 
       addUtilities(typographyUtils, {
