@@ -19,6 +19,10 @@
 
   .page {
     padding: theme(spacing.16) theme(spacing.16) !important;
+    height: auto !important;
+    overflow: visible !important;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
 
   .initial {
