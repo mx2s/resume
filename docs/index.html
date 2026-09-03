@@ -3,15 +3,36 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Resume. Max Kovalenko. Senior Full Stack Engineer. TypeScript, React, Node.js, AI agents">
-  <meta name="keywords" content="resume,cv,Max Kovalenko,React,Golang,Node.js,TypeScript,LangChain,MCP,Cursor,Claude Code,OpenCode,Full Stack AI Engineer">
+  <meta name="description" content="Max Kovalenko, Senior Full Stack Engineer. 10+ years building SaaS and enterprise products in TypeScript, React, Node.js, Python, and Golang. Sole engineer on a production AI agent stack.">
+  <meta name="keywords" content="resume,cv,Max Kovalenko,React,Golang,Node.js,TypeScript,Python,LangChain,MCP,Cursor,Claude Code,OpenCode,Full Stack AI Engineer">
   <meta name="author" content="Max Kovalenko">
 
   <link rel="icon" href="/favicon.png" type="image/png" />
   <link rel="apple-touch-icon" href="/logo_180.png" type="image/png" />
+  <link rel="canonical" href="https://mx2s.onrender.com/" />
   <!-- <meta name="robots" content="noindex"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Open Graph / Facebook / LinkedIn / Slack -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://mx2s.onrender.com/" />
+  <meta property="og:site_name" content="Max Kovalenko" />
+  <meta property="og:title" content="Max Kovalenko — Senior Full Stack Engineer" />
+  <meta property="og:description" content="10+ years building SaaS and enterprise products in TypeScript, React, Node.js, Python, and Golang. Sole engineer on a production AI agent stack. Co-founded a venture-backed platform ($1.5M raised)." />
+  <meta property="og:image" content="https://mx2s.onrender.com/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Max Kovalenko — Senior Full Stack Engineer. AI agents, TypeScript, Python, Node.js, Golang." />
+  <meta property="profile:first_name" content="Max" />
+  <meta property="profile:last_name" content="Kovalenko" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Max Kovalenko — Senior Full Stack Engineer" />
+  <meta name="twitter:description" content="10+ years building SaaS and enterprise products in TypeScript, React, Node.js, Python, and Golang. Sole engineer on a production AI agent stack." />
+  <meta name="twitter:image" content="https://mx2s.onrender.com/og.png" />
+
   <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
   <link href="./build.css" rel="stylesheet">
   <title>Resume. Max Kovalenko. Senior Full Stack Engineer</title>
@@ -26,7 +47,7 @@
           Max Kovalenko | Senior Full Stack Engineer
         </h1>
 	<span class="font-semibold text-gray-700 leading-normal text-sm">
-	Senior Full Stack Engineer with <u>10+ years of experience</u> building SaaS and enterprise products in <u>TypeScript, React, Node.js, and Golang</u>. Co-founded a venture-backed platform ($1.5M raised). I ship production software with Cursor, Claude Code, and OpenCode: agents write the implementation; I own architecture, review, tests, and production.
+	10+ years building SaaS and enterprise products in TypeScript, React, Node.js, Python, and Golang. Co-founded a venture-backed platform ($1.5M raised). Now sole engineer on a production AI agent stack processing thousands of documents a month. I work agent-first with Cursor, Claude Code, and OpenCode, and own the architecture, review, and production quality of everything I ship.
 	</span>
       </header>
 
@@ -56,15 +77,23 @@
               <ul class="mb-1">
                 <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Built production LangChain agents in Python for AI form filling and legal document processing.
+                  Sole engineer on the AI agent stack: production LangChain agents in Python for form filling and legal document processing, replacing manual staff work across thousands of documents a month.
                 </li>
                 <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Built an internal MCP server so agents could call company tools and data.
+                  Built the async pipeline behind them — Kafka job queues and MinIO document storage — so ingestion scales independently of agent execution.
                 </li>
                 <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Shipped those agents into the live Node.js/React product.
+                  Built an internal MCP server giving agents authenticated access to core company tools and data.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  Designed the human-in-the-loop boundary: agents draft, staff verify, so throughput scales without shipping unreviewed output.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                  Integrated the agents into the live Node.js/React product, working across the Python services and the TypeScript app.
                 </li>
               </ul>
 
@@ -95,7 +124,7 @@
                 </li>
                 <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Shipped it on time into internal production; ran client demos as the engineering face of the work.
+                  Shipped it to internal production in six months, on schedule; ran client demos as the engineering face of the work.
                 </li>
               </ul>
 
@@ -116,7 +145,7 @@
                 <span class="text-md text-gray-650 px-2" role="separator">|</span>
                 <p class="leading-normal text-md text-gray-650">DEC 2024 - MAR 2025</p>
                 <span class="text-md text-gray-650 px-2" role="separator">|</span>
-                <b class="leading-normal text-md text-gray-650">Product Engineer</b>
+                <b class="leading-normal text-md text-gray-650">Product Engineer (Contract)</b>
               </header>
 
               <ul class="mb-1">
@@ -126,7 +155,7 @@
                 </li>
 		<li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-		  Overhauled the integration testing strategy, establishing a more efficient workflow and driving team adoption.
+		  Overhauled the integration testing strategy, expanding coverage and driving team-wide adoption within a four-month contract.
                 </li>
               </ul>
 
@@ -145,7 +174,7 @@
                     </a>
                   </h3>
                   <span class="text-md text-gray-650 px-2" role="separator">|</span>
-                  <p class="leading-normal text-md text-gray-650">NOV 2021 - NOV 2024</p>
+                  <p class="leading-normal text-md text-gray-650">NOV 2021 - NOV 2024 (part-time until Dec 2022)</p>
                   <span class="text-md text-gray-650 px-2" role="separator">|</span>
                   <b class="leading-normal text-md text-gray-650">Co-founder & CTO</b>
                 </header>
@@ -189,7 +218,7 @@
                     </a>
                 </h3>
                 <span class="text-md text-gray-650 px-2" role="separator">|</span>
-                <p class="leading-normal text-md text-gray-650">APR 2020 - DEC 2022</p>
+                <p class="leading-normal text-md text-gray-650">APR 2020 - DEC 2022 (part-time from Nov 2021)</p>
                 <span class="text-md text-gray-650 px-2" role="separator">|</span>
                 <b class="leading-normal text-md text-gray-650">Software Engineer</b>
               </header>
@@ -271,165 +300,135 @@
                 TECHNICAL SKILLS
               </h2>
 
-              <section class="break-inside-avoid">
-		<header>
-                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                    Core
-                  </h3>
-                </header>
-		<div>
-                  <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-	            <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Javascript
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Golang
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Node.js
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Typescript
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      C# (Dotnet Core / Unity)
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      PHP (Laravel)
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      React Native (Expo)
-                    </li>
-                  </ul>
-                <header>
-                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish mt-2">
-                    Frontend
-                  </h3>
-                </header>
-                <div class="my-1 last:pb-1.5">
-                  <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      React
-                    </li>
-	            <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Next.js
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Angular v2+
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Vite
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      React Query
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      MUI
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Tailwind
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      SCSS/Less
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Tanstack
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Dexie.js
-                    </li>
-                  </ul>
-                </div>
-              </section>
-	      <header>
-                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                    Backend
-                  </h3>
-                </header>
-                <div class="my-1 last:pb-1.5">
-                  <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Node.js
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      NestJS
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      AWS Lambda
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Protobuf
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Go FastHTTP
-                    </li>
-	            <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      Redis
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      AWS SQS
-                    </li>
-	    	    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      AWS SNS
-                    </li>
-                  </ul>
-                </div>
-              </section>
-	      <header>
-                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                    Databases
-                  </h3>
-                </header>
-                <div class="my-1 last:pb-1.5">
-                  <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      PostgreSQL
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      MongoDB
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      MySQL
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      AWS DocumentDB
-                    </li>
-		    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                      SQLite
-                    </li>
-                  </ul>
-                </div>
-              </section>
+	    <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Core
+                </h3>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    TypeScript
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    JavaScript
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Python
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Golang
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Node.js
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+	    <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Frontend
+                </h3>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    React
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Next.js
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Vite
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    TanStack Query
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Tailwind
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    MUI
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+	    <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Backend
+                </h3>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Node.js
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    NestJS
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Prisma
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Kafka
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Redis
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    Protobuf
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+	    <section class="mb-4 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Databases
+                </h3>
+              </header>
+              <div class="my-1 last:pb-1.5">
+                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    PostgreSQL
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    MongoDB
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    SQLite
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+	    <section class="mb-4 break-inside-avoid">
               <header>
                 <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                   Infra / Tooling
@@ -437,34 +436,31 @@
               </header>
               <div class="my-1 last:pb-1.5">
                 <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-		  <li
+                  <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    AWS
+                    AWS (Lambda, SQS/SNS, CloudFormation)
                   </li>
-		  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    CloudFormation
-                  </li>
-		  <li
+                  <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                     Google Cloud
                   </li>
                   <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    GitHub Actions
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                     Cypress
                   </li>
-		  <li
+                  <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    GitHub actions
+                    MinIO
                   </li>
-		  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-		    CircleCI
-		  </li>
                 </ul>
               </div>
             </section>
 
+	    <section class="mb-4 break-inside-avoid">
               <header>
                 <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
                   AI / agents
@@ -482,6 +478,10 @@
                   </li>
                   <li
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                    pgvector
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                     Cursor
                   </li>
                   <li
@@ -492,64 +492,29 @@
                     class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
                     OpenCode
                   </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    pgvector
-                  </li>
                 </ul>
               </div>
             </section>
 
-	    <section class="mb-4 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Delivery methods
-                </h3>
-              </header>
-              <div class="my-1 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-		  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Agile
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Scrum
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-                    Kanban
-                  </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-		    Lean
-                  </li>
-                </ul>
-              </div>
             </section>
 
 	    <section class="mb-2 break-inside-avoid">
               <header>
                 <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Open Source contributions
+                  Open Source
                 </h3>
               </header>
               <div class="my-1 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-
-		  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-			  <a href="https://github.com/laravel/framework/pull/28670" target="_blank">
-				  <span>Laravel framework</span>
-			  </a>
+                <ul class="mb-1">
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    <a href="https://github.com/laravel/framework/pull/28670" class="group" target="_blank"><b class="text-blue-600">Laravel</b><span class="inline-block text-gray-500 print:text-black font-normal group-hover:text-blue-600 transition duration-100 ease-in">↗</span></a>
+                    &mdash; merged fix to Eloquent's MorphTo relation in the core framework.
                   </li>
-                  <li
-                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200">
-			<a href="https://github.com/cachethq/cachet/pull/3619" target="_blank">
-			    <span>
-			 	Cachet - self hosted status page (14.8k stars)
-			    </span>
-		    	</a>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                    <a href="https://github.com/cachethq/cachet/pull/3619" class="group" target="_blank"><b class="text-blue-600">Cachet</b><span class="inline-block text-gray-500 print:text-black font-normal group-hover:text-blue-600 transition duration-100 ease-in">↗</span></a>
+                    &mdash; merged two-factor auth upgrade on a 14.8k-star status page.
                   </li>
                 </ul>
               </div>
