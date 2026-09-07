@@ -25,6 +25,16 @@
     -webkit-box-decoration-break: clone;
   }
 
+  /* ponytail: print stacks to 1 col so ATS reads source order, not y-interleaved columns */
+  .resume-cols {
+    display: block !important;
+  }
+
+  .resume-cols > div {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
   .initial {
     color: transparent !important;
     text-shadow: 0 0 0 #fff !important;
